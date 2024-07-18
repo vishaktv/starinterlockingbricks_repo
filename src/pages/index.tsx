@@ -224,9 +224,9 @@ const index = () => {
       </div>
      
     </div>
-      <footer className="footer">
+      <footer className="footer flex items-center justify-center">
         <div className="container text-center">
-          <span><a href="https://starinterlockingbricks.in">https://starinterlockingbricks.in</a></span>
+          <span className="text-3xl"><a href="https://starinterlockingbricks.in">https://starinterlockingbricks.in</a>  {"-->"}</span>
         </div>
       </footer>
     </>
