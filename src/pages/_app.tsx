@@ -1,4 +1,5 @@
 import { AppType } from "next/app";
+import "../../styles/global.scss";
 
 const MyApp:AppType=({Component,pageProps})=> {
     return (
