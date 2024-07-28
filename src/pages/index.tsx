@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 
-const index = () => {
+const IndexPage = () => {
   const router=useRouter();
   useEffect(() => {
     router.replace("/home")
@@ -240,4 +240,4 @@ const index = () => {
   )
 }
 
-export default index
+export default IndexPage
