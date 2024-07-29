@@ -2,7 +2,7 @@ import { BsArrowRight } from "react-icons/bs"
 
 const IntroSection = () => {
   return (
-    <div className="min-h-[85vh] flex flex-col justify-center items-start background-gradient w-full">
+    <div className="min-h-[95vh] flex flex-col justify-center items-start background-gradient w-full">
         <div className="cont flex items-center flex-col md:flex-row">
           <div className="heading-text flex-1 pt-8 text-white">
             <div className="flex "> 
