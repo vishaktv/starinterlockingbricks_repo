@@ -1,6 +1,7 @@
 import AboutSection from "../pageContents/home/aboutSection";
 import ConstructionSolutionsSection from "../pageContents/home/constructionSolutionsSection";
 import IntroSection from "../pageContents/home/introSection";
+import OurProducts from "../pageContents/home/OurProducts";
 import OurService from "../pageContents/home/OurService";
 import WhyToChooseSection from "../pageContents/home/whyToChooseSection";
 const home = () => {
@@ -15,10 +16,8 @@ const home = () => {
         <ConstructionSolutionsSection />
         <div className="mt-16 md:mt-20"></div>
         <OurService />
-        {/* <DualWeightText primaryText="Why to choose" secondaryText=" STAR&SHINE" />
-        <DualWeightText primaryText="Efficient Construction  " secondaryText="Solutions" />
-        <DualWeightText primaryText="Our" secondaryText="Services" />
-        <DualWeightText primaryText="Our" secondaryText="Products" /> */}
+        <div className="mt-16 md:mt-20"></div>
+        <OurProducts />
       </div>
 
 

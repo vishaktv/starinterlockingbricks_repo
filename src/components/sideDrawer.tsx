@@ -6,13 +6,13 @@ import { DrawerContext } from '../providers/drawerProvider';
 
 
 const SideDrawer = styled(Drawer)<DrawerProps>(({ theme }) => ({
-    top:"7.5rem",
+    top:"6rem",
   "& .MuiBackdrop-root": {
-    top: "7.5rem"
+    top: "6rem"
   },
   "& .MuiPaper-root": {
-    top: "7.5rem",
-    width:"20rem",
+    top: "6rem",
+    width:"27rem",
     boxShadow:"none"
   },
 

@@ -6,7 +6,7 @@ const IntroSection = () => {
         <div className="cont flex items-center flex-col md:flex-row">
           <div className="heading-text flex-1 pt-8 text-white">
             <div className="flex "> 
-            <span className="font-nuehassMedium italic text-4xl md:text-7xl mr-3 ">&quot;</span> 
+            <span className="font-nuehassMedium italic text-4xl md:text-6xl mr-3 ">&quot;</span> 
             <h1 className="font-montserrat text-3xl md:text-6xl font-normal mb-8">
              <span className="font-extrabold">B</span>uilding a <span className="font-extrabold">S</span>trong <span className="font-extrabold">F</span>oundation<span className="font-nuehassMedium italic">&quot;</span>.</h1>
             </div>
