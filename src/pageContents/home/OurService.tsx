@@ -4,7 +4,10 @@ import { Divider } from "@mui/material"
 const OurService = () => {
   return (
     <>
-   <DualWeightText primaryText="Our" secondaryText="Services" />
+    <div className="md:text-right">
+    <DualWeightText primaryText="Our" secondaryText="Services"/>
+    </div>
+  
    <Divider className=""/>
    <div className="mt-4 md:mt-0 flex flex-col md:flex-row md:items-start md:justify-between">
     <div className="flex-1 md:mr-8">
