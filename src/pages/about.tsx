@@ -18,10 +18,10 @@ const About = () => {
     <>
       {/* SEO Enhancements */}
       <Head>
-        <title>About STAR & SHINE Interlocking Bricks - Leading Manufacturer in Kerala</title>
+        <title>About STAR & SHINE Interlocking Bricks</title>
         <meta
           name="description"
-          content="Discover STAR & SHINE Interlocking Bricks, the leading manufacturer of eco-friendly and durable interlocking bricks in Kerala and Tamil Nadu. Learn about our mission and customer testimonials."
+          content="STAR & SHINE, the leading manufacturer of eco-friendly & durable interlocking bricks in Kerala, TamilNadu. Learn about our mission and customer testimonials."
         />
         <meta
           name="keywords"
