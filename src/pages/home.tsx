@@ -7,6 +7,8 @@ import OurService from "../pageContents/home/OurService";
 import WhyToChooseSection from "../pageContents/home/whyToChooseSection";
 
 const Home = () => {
+  console.log("home");
+  
   // Define the sections array with unique keys for each section
   const sections = [
     <AboutSection key="1" />,
