@@ -64,7 +64,7 @@ const About = () => {
               </p>
 
               <p className="font-montserrat text-base md:text-xl lg:text-2xl text-gray-300 leading-relaxed mb-4 ">
-                Our company combines state-of-the-art technology with skilled craftsmanship to deliver bricks that offer exceptional strength, durability, and aesthetics. Whether you're working on residential, commercial, or landscaping projects, our interlocking bricks provide a cost-effective and sustainable solution.
+                Our company combines state-of-the-art technology with skilled craftsmanship to deliver bricks that offer exceptional strength, durability, and aesthetics. Whether you&quot;re working on residential, commercial, or landscaping projects, our interlocking bricks provide a cost-effective and sustainable solution.
               </p>
 
               <p className="font-montserrat text-base md:text-xl lg:text-2xl text-gray-300 leading-relaxed mb-16 ">
@@ -172,10 +172,10 @@ const About = () => {
               className="md:w-3/5"
             >
               <blockquote className="italic text-base md:text-xl lg:text-2xl pt-8 text-gray-200">
-                "STAR & SHINE's interlocking bricks transformed our building project. Their quality and service are unmatched!" - <strong className="text-yellow-400">Happy Customer</strong>
+              &ldquo;STAR & SHINE&quot;s interlocking bricks transformed our building project. Their quality and service are unmatched!&ldquo; - <strong className="text-yellow-400">Happy Customer</strong>
               </blockquote>
               <blockquote className="italic mt-4 text-base md:text-xl lg:text-2xl text-gray-200">
-                "Choosing STAR & SHINE was the best decision for our eco-friendly construction. Highly recommended!" - <strong className="text-yellow-400">Satisfied Client</strong>
+              &ldquo;Choosing STAR & SHINE was the best decision for our eco-friendly construction. Highly recommended!&ldquo; - <strong className="text-yellow-400">Satisfied Client</strong>
               </blockquote>
             </motion.div>
           </section>
