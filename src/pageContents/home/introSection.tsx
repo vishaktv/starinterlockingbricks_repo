@@ -34,7 +34,7 @@ const IntroSection = () => {
             variants={fadeInLeft}
           >
             <span className="font-nuehassMedium italic text-4xl md:text-6xl mr-3 ">&quot;</span>
-            <h1 className="font-montserrat text-3xl md:text-6xl font-normal mb-8">
+            <h1 className=" text-3xl md:text-6xl font-normal mb-8">
               <span className="font-extrabold">B</span>uilding a{" "}
               <span className="font-extrabold">S</span>trong{" "}
               <span className="font-extrabold">F</span>oundation
@@ -42,7 +42,7 @@ const IntroSection = () => {
             </h1>
           </motion.div>
           <motion.h4
-            className="font-montserrat text-5xl md:text-7xl font-thin"
+            className=" text-5xl md:text-7xl font-thin"
             initial="hidden"
             whileInView="visible"
             exit="hidden"
@@ -72,7 +72,7 @@ const IntroSection = () => {
             INTERLOCKING BRICKS
           </motion.h1>
           <motion.button
-            className="px-7 py-5 bg-red-400 font-montserrat text-3xl text-white button-gradient mt-12 flex"
+            className="px-7 py-5 bg-red-400  text-3xl text-white button-gradient mt-12 flex"
             initial="hidden"
             whileInView="visible"
             exit="hidden"

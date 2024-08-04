@@ -1,3 +1,4 @@
+import { Link } from '@mui/material';
 import Drawer, { DrawerProps } from '@mui/material/Drawer';
 import { styled } from '@mui/material/styles';
 import { useContext } from 'react';
@@ -30,7 +31,38 @@ export default function SideBarDrawer() {
         onClose={()=>toggleHandler()}
         className=''
       >
-        <h1>Hi Hello</h1>
+       <nav>
+          <ul className="space-y-4">
+            <li>
+              <Link href="/">
+                <a className="block p-4 text-lg font-medium hover:bg-gray-700 rounded-lg transition-colors">
+                  Home
+                </a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/about">
+                <a className="block p-4 text-lg font-medium hover:bg-gray-700 rounded-lg transition-colors">
+                  About
+                </a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/contact">
+                <a className="block p-4 text-lg font-medium hover:bg-gray-700 rounded-lg transition-colors">
+                  Contact
+                </a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/gallery">
+                <a className="block p-4 text-lg font-medium hover:bg-gray-700 rounded-lg transition-colors">
+                  Gallery
+                </a>
+              </Link>
+            </li>
+          </ul>
+        </nav>
       </SideDrawer>
     </>
   );

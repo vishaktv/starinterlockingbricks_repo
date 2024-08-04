@@ -240,3 +240,19 @@ svg{
         // @apply mx-8 md:mx-40
         @apply w-[85%] md:w-9/12 mx-auto
     }
+
+    .about-background-gradient {
+        position: relative;
+        background: 
+            linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Black overlay with 50% opacity */
+            linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.2) 100%), /* Light to dark overlay */
+            radial-gradient(at top center, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.5) 120%), /* Radial overlay */
+            url('https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1006,h=1002,fit=crop/YrDLrDne7Du0aJer/357744790_747759687352649_589341084929902561_n-mnlnnbNJBasxPo2q.jpg'); /* Background image */
+        background-blend-mode: multiply, multiply, normal; /* Blending modes */
+        background-size: cover; /* Cover the entire div */
+        background-repeat: no-repeat;
+        background-position: center; /* Center the image */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }

@@ -17,7 +17,7 @@ const WhyToChooseSection = () => {
     <div className="flex-1 md:ml-8">
     <p className="m-0 text-base md:text-xl text-gray-400 mt-4">NOT TO MENTION</p>
     <p className="text-5xl md:text-6xl text-gray-600">Why Choose STAR & SHINE Interlocking Bricks?</p>
-    <p className="pt-6 text-2xl text-gray-500  md:w-w-5/6 font-montserrat">Discover the numerous benefits of STAR & SHINE interlocking bricks for your construction projects. Our bricks are not only reliable and durable, but also incorporate the latest smart technology. With a rich heritage inspired by ancient Indian temples and monuments, 
+    <p className="pt-6 text-2xl text-gray-400  md:w-w-5/6 font-montserrat">Discover the numerous benefits of STAR & SHINE interlocking bricks for your construction projects. Our bricks are not only reliable and durable, but also incorporate the latest smart technology. With a rich heritage inspired by ancient Indian temples and monuments, 
     our bricks offer a safe and sustainable solution for modern day construction.</p>
     </div>
     
