@@ -26,7 +26,7 @@ const DualWeightText = (props: DualWeightTextProps) => {
         variants={fadeInUp}
         transition={{ duration: 0.5, delay: 0.5 }}
       >
-            <h1 className={classNames([props.clases,"font-nuehassMedium font-black text-6xl md:text-8xl tracking-[-0.09rem]"])}>{props.primaryText}<span className="font-nuehassLight font-thin">{props.secondaryText}</span></h1>
+            <h3 className={classNames([props.clases,"font-nuehassMedium font-black text-6xl md:text-8xl tracking-[-0.09rem]"])}>{props.primaryText}<span className="font-nuehassLight font-thin">{props.secondaryText}</span></h3>
         </motion.div>
 
 

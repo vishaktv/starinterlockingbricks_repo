@@ -1,4 +1,7 @@
 import { motion } from "framer-motion";
+import { NextSeo } from "next-seo";
+import Head from "next/head";
+import SEO from '../../next-seo.config';
 import AboutSection from "../pageContents/home/aboutSection";
 import ConstructionSolutionsSection from "../pageContents/home/constructionSolutionsSection";
 import IntroSection from "../pageContents/home/introSection";
@@ -7,6 +10,26 @@ import OurService from "../pageContents/home/OurService";
 import WhyToChooseSection from "../pageContents/home/whyToChooseSection";
 
 const Home = () => {
+
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "STAR & SHINE INTERLOCKING BRICKS",
+    "url": "https://www.starshineinterlockingbricks.com/",
+    "logo": "https://www.yourdomain.com/path-to-logo.png",
+    "sameAs": [
+      "https://www.facebook.com/your-profile",
+      "https://www.twitter.com/your-profile",
+      "https://www.instagram.com/your-profile"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-623-806-0766",
+      "contactType": "Customer Service",
+      "areaServed": "IND",
+      "availableLanguage": ["English"]
+    }
+  };
   console.log("home");
   
   // Define the sections array with unique keys for each section
@@ -20,6 +43,12 @@ const Home = () => {
 
   return (
     <>
+    <NextSeo {...SEO}/>
+    <Head>
+        <script type="application/ld+json">
+          {JSON.stringify(structuredData)}
+        </script>
+      </Head>
       <IntroSection />
       <div className="cont mx-auto py-8 md:py-16">
         {sections.map((item, index) => (
