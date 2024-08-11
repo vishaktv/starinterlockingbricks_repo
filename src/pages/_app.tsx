@@ -20,18 +20,18 @@ const MyApp:AppType=({Component,pageProps}: AppProps)=> {
         <DefaultSeo
         titleTemplate="%s | STAR & SHINE INTERLOCKING BRICKS"
         defaultTitle="STAR & SHINE INTERLOCKING BRICKS, Kerala|Tamil Nadu"
-        canonical="https://www.starshineinterlockingbricks.com/"
+        canonical="https://starshineinterlockingbricks.com/"
         description="Welcome to STAR & SHINE, where we focus on building a strong foundation with our premium interlocking bricks. Serving Kerala and Tamil Nadu regions."
         openGraph={{
           type: 'website',
           locale: 'en_IE',
-          url: 'https://www.starshineinterlockingbricks.com/',
+          url: 'https://starshineinterlockingbricks.com/',
           siteName: 'STAR & SHINE INTERLOCKING BRICKS',
           title: "STAR & SHINE INTERLOCKING BRICKS",
           description: "Building a strong foundation with our premium interlocking bricks. Serving Kerala and Tamil Nadu regions.",
           images: [
             {
-              url: 'https://www.starshineinterlockingbricks.com/images/og-image.jpg',
+              url: 'https://starshineinterlockingbricks.com/images/og-image.jpg',
               width: 1200,
               height: 630,
               alt: 'STAR & SHINE INTERLOCKING BRICKS',
@@ -79,8 +79,8 @@ const MyApp:AppType=({Component,pageProps}: AppProps)=> {
       />
         <OrganizationJsonLd
                 type="Corporation"
-                id="https://www.starshineinterlockingbricks.com/about"
-                logo="https://www.starshineinterlockingbricks.com/logo.jpg"
+                id="https://starshineinterlockingbricks.com/about"
+                logo="https://starshineinterlockingbricks.com/logo.jpg"
                 legalName="STAR & SHINE INTERLOCKING BRICKS"
                 name="STAR & SHINE"
                 address={{
@@ -107,7 +107,7 @@ const MyApp:AppType=({Component,pageProps}: AppProps)=> {
                     },
                 ]}
                 sameAs={['https://www.facebook.com/starshinebricks']}
-                url="https://www.starshineinterlockingbricks.com/"
+                url="https://starshineinterlockingbricks.com/"
             />
         <main className={classNames(nuehassLight.variable,nuehassMedium.variable,montserrat.variable)}>
         <DrawerProvider>
