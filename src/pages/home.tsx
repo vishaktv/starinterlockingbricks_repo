@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
-import { NextSeo } from "next-seo";
 import Head from "next/head";
-import SEO from '../../next-seo.config';
 import AboutSection from "../pageContents/home/aboutSection";
 import ConstructionSolutionsSection from "../pageContents/home/constructionSolutionsSection";
 import IntroSection from "../pageContents/home/introSection";
@@ -43,7 +41,7 @@ const Home = () => {
 
   return (
     <>
-    <NextSeo {...SEO}/>
+    {/* <NextSeo {...SEO}/> */}
     <Head>
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
