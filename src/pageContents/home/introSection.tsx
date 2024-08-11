@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import Head from "next/head";
 import { BsArrowRight } from "react-icons/bs";
 
 const fadeInLeft = {
@@ -15,7 +14,7 @@ const fadeInBottom = {
 const IntroSection = () => {
   return (
     <>
-    <Head>
+    {/* <Head>
         <title>STAR & SHINE INTERLOCKING BRICKS | Building a Strong Foundation</title>
         <meta name="description" content="Welcome to STAR & SHINE, where we focus on building a strong foundation with our premium interlocking bricks. Contact us today!" />
         <meta name="keywords" content="interlocking bricks, building foundation, construction materials, STAR & SHINE" />
@@ -26,7 +25,7 @@ const IntroSection = () => {
         <meta property="og:image" content="/path-to-your-image.jpg" />
         <meta property="og:url" content="https://www.yourdomain.com" />
         <meta name="twitter:card" content="summary_large_image" />
-      </Head>
+      </Head> */}
     <div
       className="h-screen flex flex-col justify-center items-start background-gradient w-full"
     >
