@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 class MyDocument extends Document{
   render(){
     return (
-      <Html>
+      <Html lang="en">
         <Head>
         <link rel="icon" type="image/x-icon" href="/icon.ico"></link>
         </Head>
