@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.starshineinterlockingbricks.com
+
+# Sitemaps
+Sitemap: https://www.starshineinterlockingbricks.com/sitemap.xml
